@@ -1,0 +1,16 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": ["please"],
+    "languageserver": {
+        "please": {
+            "filetypes": ["please"],
+            "command": "plz",
+            "args": [ "tool","lps" ],
+            "rootPatterns": [".plzconfig"],
+            "requireRootPattern": true
+        }
+    },
+
+    "yaml.schemas": {
+        "kubernetes": "/*.yaml"
+    }
+}
